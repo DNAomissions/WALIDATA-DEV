@@ -1,0 +1,221 @@
+        html,
+        body,
+        #viewDiv {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        }
+
+        #viewDiv2 {
+        position: fixed;
+        height: 8%;
+        width: 40%;
+        top: 1%;
+        left: 1%;
+        }
+
+        #viewDiv3 {
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        opacity: 0.8;
+        }
+
+        #viewDiv4 {
+        height: 100%;
+        max-width: 10%;
+        position: absolute;
+        }
+        
+        img {
+        height: 90%;
+        }
+
+        #viewDiv5 {
+        height: 10%;
+        left: 10%;
+        position: absolute;      
+        }
+        
+        #viewDiv5 p {
+        margin: auto;
+        color: white;
+        font-size: 3vh;
+        font-family: sans-serif;
+        margin: 12%;
+        }
+        @media only screen and (max-width: 479px){
+        #viewDiv2 {
+        position: fixed;
+        height: 6%;
+        width: 40%;
+        top: 1%;
+        left: 1%;
+        }
+
+        #viewDiv3 {
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        opacity: 0.8;
+        }
+
+        #viewDiv4 {
+        height: 100%;
+        max-width: 10%;
+        }
+
+        img {
+        height: 90%;
+        width: 200%;
+        }
+
+        #viewDiv5 {
+        display: none;
+        font-family: sans-serif;
+        }
+        }
+
+        .esri-component.esri-search.esri-widget {
+        left: 20%;
+        top: 2.5%;
+        z-index: 99;
+        width: 20%;
+        border: 1px solid;
+        position: fixed;
+        }
+
+        .esri-search__input {
+        font-weight: bold !important;
+        }
+
+        .esri-search__input {
+        font-weight: bold !important;
+        }
+
+        #overviewDiv {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        width: 300px;
+        height: 200px;
+        border: 1px solid black;
+        z-index: 1;
+        }
+
+        #extentDiv {
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        z-index: 2;
+        }
+
+        .esri-attribution__powered-by {
+        display: none;
+        }
+
+        .esri-attribution__sources {
+        display: none;
+        }
+
+        .esri-ui-top-left {
+            top: 50px;
+            left: 15px;
+            right: 15px;
+            bottom: 30px;
+        }
+
+        #zone-clock {
+        position: fixed;
+        bottom: 250px;
+        left: 15px; 
+        width: 20%;
+        font-family: sans-serif; 
+        font-size: 14px
+        }
+
+        #dock-container {
+        position: fixed;
+        bottom: 16px;
+        text-align: center;
+        right: 39%;
+        left: 32%;
+        width: 40%;
+        }
+
+        #dock-container ul {
+        position: relative;
+        display: inline-block;
+        padding: 5px 20px 0;
+        margin: 0;
+        background: #333;
+        }
+
+        #dock-container li {
+        list-style-type: none;
+        display: inline-block;
+        position: relative;
+        padding: 0 10px 0 10px;
+        }
+
+        #dock-container li img {
+        width: 32px;
+        height: 32px;
+        }
+
+
+        #dock-container li span {
+        display: none;
+        position: absolute;
+        bottom: 80px;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.75);
+        padding: 4px 0;
+        border-radius: 12px;
+        font-size: 10px;
+        }
+
+        #dock-container li:hover span {
+        display: block;
+        width: 100px;
+        color: #fff;
+        }
+
+        #dock-container li:active span {
+        display: none;
+        color: #fff;
+        }
+
+        #buttonBack {
+            height: 32px;
+            width: 32px;
+            position: fixed;
+            left: 30px;
+            top: 220px;
+            border: none;
+            box-shadow: grey 0px 0px 1px 0px;
+            background-color: white;
+            cursor: pointer;
+        }
+        
+        #buttonBack:hover {
+            background-color: #f2f2f2;
+        }
+
+        #buttonLogout {
+            height: 32px;
+            width: 32px;
+            position: fixed;
+            left: 30px;
+            top: 270px;
+            border: none;
+            box-shadow: grey 0px 0px 1px 0px;
+            background-color: white;
+            cursor: pointer;
+        }
+        
+        #buttonLogout:hover {
+            background-color: #f2f2f2;
+        }
